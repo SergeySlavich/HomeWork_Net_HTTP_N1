@@ -24,7 +24,7 @@ namespace HomeWork_Net_HTTP_N1
         }
         protected async Task ViewWeather()
         {
-            string _key = "858b4ae7631a2247fc25e7d79ae4914e";
+            string _key = "ключ для openweather"; // здесь ввести ключ
 
             HttpClient httpClient = new HttpClient();
             string request = $"http://api.openweathermap.org/data/2.5/forecast?id=524901&appid={_key}";
